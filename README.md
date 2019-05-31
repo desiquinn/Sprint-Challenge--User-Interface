@@ -34,13 +34,26 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+* Semnatic HTML is a technique which requires you to markup your content using tags and selectors that describe what is nested within that tag. For example, instead of using a <div> tag one would use a <nav>, <section>, <header>, or even a <article> tag that explains to other developer reading the code what is meant to be nested inside that tag.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+* display: inline; will convert elements that would normally be block elements into inline elements.  When using display: inline the element will ignore height or width properties. display: block; converts elements that would normally be inline elements into block elements. Converting an element into a block element will allow it to take height and width properties. Another major difference between the two is how you will center items.  With block you can horizontally center items by setting the margin: to a value of auto.  However, with inline you must use other technique to center the element (such as text-align: center).
 
 3. What are the 4 areas of the box model?
 
+* Content - the area that contains what the end user will see
+* Border - an area that you can style to surround the content with a border of any type
+* Padding - the area between the content area and the border (usually invisible unless there is a background color)
+* Margins - the invisable area surround the outside of the element, outside the border.  Great for controlling white space between and around elements.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+* the cross-axis
+
 5. Explain why git is valuable to a team of developers.
+
+* git is valuable to a team of developers because each individual can work on their portion of a project using a branch which will not alter the main project until changes are accepted.  This way a developer can try different things without perminantly altering the main project and they can also look back at different versions of the changes that were made.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
