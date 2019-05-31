@@ -96,6 +96,8 @@ header {
     margin-bottom: 50px;
 }
 
+/* index.html styling */
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -213,4 +215,44 @@ footer nav a {
 
 #box10 {
     background: dodgerblue;
+}
+
+/* about.html styling */
+
+.top-about-section {
+    border-bottom: 2px dotted black;
+    padding: 0px 20px 20px;
+}
+
+.middle-about-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.middle-about-section div {
+    width: 370px;
+    padding: 25px 0px;
+    border-bottom: 1px dotted black;
+    margin: 20px 0px;
+}
+
+.middle-about-section div img {
+    margin-bottom: 20px;
+}
+
+.middle-about-section div a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 10%;
+    padding: 5px 10px;
+}
+
+.middle-about-section div p {
+    margin-bottom: 30px;
+}
+
+.bottom-about-section{
+    margin: 20px 20px 50px;
 }
