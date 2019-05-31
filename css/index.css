@@ -66,6 +66,36 @@ p {
     line-height: 1.4;
 }
 
+/* Navigation bar styling */
+
+.nav-bar {
+    display: flex;
+    width: 800px;
+    height: 50px;
+    margin: 20px auto;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    margin: 20px 40px;
+}
+
+nav div {
+    margin-right: 30px;
+}
+
+/* Header styling */
+
+header {
+    margin-bottom: 50px;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
